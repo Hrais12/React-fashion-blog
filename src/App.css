@@ -1,5 +1,83 @@
+body{
+  font-family: sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 1rem 2rem;
+  
+}
+
+.mainContainer{
+  display: flex;
+  
+}
+.border{
+  border: solid grey;
+  background-color: grey;
+  width: 5px;
+  
+}
+h1{
+  color: tomato;
+}
+
+.title{
+  font-size: xx-large;
+}
+img{
+  width: 100%;
+}
+
+.navMain{
+  padding:0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  text-decoration: underline;
+
+}
+
+.navFooter {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: tomato; 
+}
+
+article{
+  margin-bottom: 4rem; 
+    padding-bottom: 2rem; 
+    border-bottom: 1px solid lightgray;
+    
+}
+
+a{
+  text-decoration: none; 
+    color: inherit;
+}
+
+.continue {
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+}
+p, .time{
+  color: gray;
+}
+article p::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.footer{
+  color: lightgrey;
 }
 
 .App-logo {

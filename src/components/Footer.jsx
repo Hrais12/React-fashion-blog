@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer
+    <div>
         <nav aria-label="Main Navigation" role="navigation">
-  <ul>
+  <ul className='navFooter'>
   <li><a href="...">Home</a></li>
     <li><a href="...">Women's</a></li>
     <li><a href="...">Men's</a></li>
@@ -16,7 +16,7 @@ function Footer() {
   </ul>
 </nav>
 
-<p id='footer'>&copy;2013Valet Industries,Inc</p>
+<p className='footer'> &copy; 2013 Valet Industries,Inc</p>
 
     </div>
   )

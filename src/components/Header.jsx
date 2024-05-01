@@ -5,7 +5,7 @@ function Header() {
     <div>
        
        <h1>Startre's List</h1>
-       <h1>Better-Dressed People</h1>
+       <h2>Better-Dressed People</h2>
 
     </div>
   )

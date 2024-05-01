@@ -7,12 +7,16 @@ import Nav from './components/Nav';
 
 function App() {
   return (
+
+    <div className='mainContainer'>
+
+    <div className='border'></div>
     <div className="App">
-      App
       <Header/>
       <Nav/>
       <Article/>
       <Footer/>
+    </div>
     </div>
   );
 }
