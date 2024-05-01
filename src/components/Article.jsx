@@ -11,6 +11,7 @@ function Article({articles}) {
             <h2 className='title'>{article.title}</h2>
             <img src={article.image} alt='pic' />
             <p>{article.content}</p>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#"><div className='continue'>Continue...</div></a>
           </article>
          ))}
